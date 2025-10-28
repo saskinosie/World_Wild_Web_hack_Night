@@ -1,0 +1,26 @@
+{
+  "name": "cook-mcp-wrapper",
+  "version": "1.0.0",
+  "description": "MCP-lite wrapper for Cook Engineering Manual Python MCP server",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [
+    "mcp",
+    "cloudflare-workers",
+    "mcp-lite"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.2",
+    "mcp-lite": "^0.8.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "typescript": "^5.7.3",
+    "wrangler": "^3.100.0"
+  }
+}

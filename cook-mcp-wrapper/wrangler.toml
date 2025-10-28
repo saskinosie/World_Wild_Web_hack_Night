@@ -1,0 +1,10 @@
+name = "cook-mcp-wrapper"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# Environment variables for your Python server URL
+[vars]
+PYTHON_MCP_URL = "http://localhost:5001"
+
+# For production, you'll need to use ngrok or similar to expose your local Python server
+# Then update this URL to point to that ngrok URL
